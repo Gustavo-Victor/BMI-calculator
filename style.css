@@ -1,0 +1,67 @@
+/*RESET*/
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+/*TÍTULOS*/
+h1{
+    text-align: center;
+    font-size: 2em;
+}
+
+/*DIV CONTAINER PRINCIPAL*/
+div.container{
+    background-color: #eee;
+    border: 1px solid black;
+    max-width: 400px;
+    height: auto;
+    box-shadow: 0px 0px 10px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*CAMPOS DO FORMULÁRIO*/
+form input{
+    display: block;
+    margin:  3% auto;
+    width: 97%;
+    height: 45px;
+    outline: none;
+    border-radius: 7px; 
+    padding-left: 10px; 
+}
+
+
+/*LABEL*/
+form label{
+    font-weight: bold;
+}
+
+/*CAMPO ENVIAR*/
+form input[type=submit]{
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 101%;
+    background-color: #1b2845;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+}
+
+/*CAMPO ENVIAR AO PASSAR O MOUSE EM CIMA*/
+form input[type=submit]:hover{
+    transition: 0.3s;
+    background-color: #101727;
+}
+
+
+
+
+
